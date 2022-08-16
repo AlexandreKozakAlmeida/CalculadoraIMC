@@ -1,4 +1,3 @@
-
 const buttonCalc = document.querySelector("#calculateButton");
 const result = document.querySelector("#outputText");
 
