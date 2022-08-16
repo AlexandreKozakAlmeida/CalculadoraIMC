@@ -1,0 +1,125 @@
+/************* RESET *******/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+
+    overflow: hidden;
+}
+
+/******* HEADER *******/
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+header h1 {
+    font-size: 1.6em;
+}
+
+header p {
+    font-size: 1em;
+}
+
+/********** CALCULATOR *****/
+
+#calculatorBody {
+    display: flex;
+    flex-direction: column;
+   
+    height: 60vh;
+    width: 18em;
+    margin: 5em auto;
+   
+    background-color: rgb(0, 159, 244);
+    box-shadow: 2px 1px 3px 3px ;
+   
+    border-radius: 1em;
+}
+
+#calculatorBody .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+#calculatorBody hr {
+     width: 90%;
+     margin: 1em auto;
+     border: 1px solid rgb(0, 0, 0);
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    gap: 2rem
+}
+
+#inputs div {
+    display: flex;
+    margin-left: 1em;
+    gap: 1.4em;
+    font-weight: 600;
+    font-size: 1.2em;
+   
+}
+
+#inputs p {
+    width: 3.5em;
+    text-align: center;
+}
+
+#inputs input {
+    outline: none;
+    padding: 1px;
+    font-weight: 600;
+    border-radius: .3em;
+    border: 1.7px solid #000000;
+    width: 12em;
+}
+
+#calculateButton {
+    width: 7em;
+    height: 2em;
+    font-weight: 600;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    cursor: pointer;
+    outline: none;
+    border-radius: .5em;
+}
+
+#resultOutput {
+    display: flex;
+    justify-content: center;
+    margin: 3em auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    width: 90%;
+    height: 90%;
+}
+
+#resultOutput p {
+  width: 90%;
+}
+
+
+
