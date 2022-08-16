@@ -1,6 +1,6 @@
 # CalculadoraIMC
 
-<p> A calculadora IMC(Índice de Massa Corporal) serve para te ajudar a compreender a situação de sua saúde com base em calculo do peso com a altura, dessa forma, você consegue identificar a situação do seu peso atual para que possa cuidar de sua saúde.
+<p> A calculadora IMC(Índice de Massa Corporal) serve para te ajudar a compreender a situação de sua saúde com base em cálculo do peso com a altura, dessa forma, você consegue identificar a situação do seu peso atual para que possa cuidar de sua saúde.
 </p>
 
 Acesse o projeto: https://alexandrekozakalmeida.github.io/CalculadoraIMC/
